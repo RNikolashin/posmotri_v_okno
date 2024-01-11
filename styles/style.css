@@ -9,7 +9,7 @@ html {
 }
 
 .page {
-  display: inline-flex;
+  display: flex;
   padding: 133px 30px;
   justify-content: center;
   align-items: center;
@@ -43,6 +43,7 @@ ol {
 
 .content {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 1140px;
